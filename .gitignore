@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Repo specific files
+data/video/
+*.mp3
+
+temp/
+# Ignore all mp4 files except those in examples directory
+*.mp4
+!examples/*.mp4
+

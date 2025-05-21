@@ -1,0 +1,9 @@
+html2image==2.0.7
+ipython==8.27.0
+jupyter==1.1.1
+moviepy==2.1.2
+mutagen==1.47.0
+openai==1.82.0
+pandas==2.2.3
+pydub==0.25.1
+requests==2.32.3
