@@ -98,18 +98,12 @@ _Note: The requirements.txt file was automatically generated from the project's 
 
 ### Basic Usage with Jupyter Notebook
 
-1. **Start Jupyter:**
-
-```bash
-jupyter notebook
-```
-
-2. **Open the main notebook:**
+1. **Open the main notebook:**
 
    - Navigate to `video_gen.ipynb`
    - Follow the step-by-step instructions in the notebook
 
-3. **Configure your video:**
+2. **Configure your video:**
 
 ```python
 # Set your parameters
