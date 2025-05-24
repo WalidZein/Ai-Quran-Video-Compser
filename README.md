@@ -65,6 +65,39 @@ sudo apt install ffmpeg
 ffmpeg -version
 ```
 
+#### 3. Google Chrome (Required)
+
+Google Chrome is required for the `html2image` library, which is used to generate text overlays for the videos. The library relies on Chromium for rendering HTML to images.
+
+**macOS:**
+
+```bash
+# Download from https://www.google.com/chrome/
+# Or install via Homebrew Cask
+brew install --cask google-chrome
+```
+
+**Ubuntu/Debian:**
+
+```bash
+# Download and install Chrome
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt update
+sudo apt install google-chrome-stable
+```
+
+**Windows:**
+
+- Download and install from [Google Chrome official website](https://www.google.com/chrome/)
+
+**Verify Chrome installation:**
+
+```bash
+google-chrome --version  # Linux/macOS
+# On Windows, check if Chrome is installed in Program Files
+```
+
 ### Installation
 
 1. **Clone the repository:**
